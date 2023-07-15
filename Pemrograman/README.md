@@ -1,4 +1,4 @@
-# Tugas Akhir
+# Final Project
 
 Aplikasi catatan keuangan sederhana menggunakan bahasa c++ yang dibuat dengan tujuan tugas akhir semester 1 universitas Amikom Yogyakarta.
 
