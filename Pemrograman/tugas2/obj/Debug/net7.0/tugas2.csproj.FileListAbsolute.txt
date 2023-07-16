@@ -1,0 +1,15 @@
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\bin\Debug\net7.0\tugas2.exe
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\bin\Debug\net7.0\tugas2.deps.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\bin\Debug\net7.0\tugas2.runtimeconfig.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\bin\Debug\net7.0\tugas2.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\bin\Debug\net7.0\tugas2.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.csproj.AssemblyReference.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.AssemblyInfoInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.AssemblyInfo.cs
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.csproj.CoreCompileInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\refint\tugas2.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\tugas2.genruntimeconfig.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas2\obj\Debug\net7.0\ref\tugas2.dll
