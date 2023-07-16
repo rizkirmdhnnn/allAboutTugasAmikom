@@ -6,7 +6,8 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Pembayaran pembayaran; // deklarasi variabel pembayaran dengan tipe data Pembayaran (superclass)
+            // deklarasi variabel pembayaran dengan tipe data Pembayaran (superclass)
+            Pembayaran pembayaran;
 
             Console.WriteLine("Pilih Metode Pembayaran");
             Console.WriteLine("1. Kartu Kredit");
@@ -17,24 +18,23 @@ namespace Polymorphism
             int nomorMetode = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Masukkan Jumlah Pembayaran: ");
-            double jumlahPembayaran = Convert.ToDouble(Console.ReadLine()); // konversi string ke double
+            double jumlahPembayaran = Convert.ToDouble(Console.ReadLine());
 
-            if (nomorMetode == 1)
-            {
-                pembayaran = new PembayaranKartuKredit(); // inisialisasi variabel pembayaran dengan objek PembayaranKartuKredit (subclass)
-            }
-            else if (nomorMetode == 2)
-            {
-                pembayaran = new PembayaranTransferBank(); // inisialisasi variabel pembayaran dengan objek PembayaranTransferBank (subclass)
-            }
-            else
-            {
-                pembayaran = new PembayaranEWallet(); // inisialisasi variabel pembayaran dengan objek PembayaranEWallet (subclass)
+            if (nomorMetode == 1){
+                // inisialisasi variabel pembayaran dengan objek PembayaranKartuKredit (subclass)
+                pembayaran = new PembayaranKartuKredit();
+            }else if (nomorMetode == 2){
+                // inisialisasi variabel pembayaran dengan objek PembayaranTransferBank (subclass)
+                pembayaran = new PembayaranTransferBank();
+            }else{
+                // inisialisasi variabel pembayaran dengan objek PembayaranEWallet (subclass)
+                pembayaran = new PembayaranEWallet();
             }
 
-            pembayaran.Show(); // memanggil method Show() dari objek pembayaran
-            pembayaran.ProcessPayment(jumlahPembayaran); // memanggil method ProcessPayment() dari objek pembayaran
-
+            // memanggil method Show() dari objek pembayaran
+            pembayaran.Show();
+            // memanggil method ProcessPayment() dari objek pembayaran
+            pembayaran.ProcessPayment(jumlahPembayaran);
             Console.ReadKey();
         }
     }

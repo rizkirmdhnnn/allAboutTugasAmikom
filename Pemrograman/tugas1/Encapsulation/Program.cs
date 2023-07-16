@@ -4,25 +4,30 @@ using System;
 
 public class Pembayaran
 {
-    private double jumlah; // Menyimpan jumlah pembayaran sebagai variabel private
-    private string mataUang; // Menyimpan mata uang pembayaran sebagai variabel private
+    // Menyimpan jumlah pembayaran sebagai variabel private
+    private double jumlah;
+    // Menyimpan mata uang pembayaran sebagai variabel private
+    private string mataUang;
 
     public double Jumlah
     {
-        get { return jumlah; } // Getter untuk mendapatkan nilai jumlah
-        set { jumlah = value; } // Setter untuk mengatur nilai jumlah
+        // getter untuk variabel jumlah
+        get { return jumlah; }
+        // setter untuk variabel jumlah
+        set { jumlah = value; }
     }
 
     public string MataUang
     {
-        get { return mataUang; } // Getter untuk mendapatkan nilai mataUang
-        set { mataUang = value; } // Setter untuk mengatur nilai mataUang
+        // getter untuk variabel mataUang
+        get { return mataUang; }
+        // setter untuk variabel mataUang
+        set { mataUang = value; }
     }
 
     public void ProsesPembayaran()
     {
         Console.WriteLine("Memproses pembayaran sejumlah {0} {1}...", jumlah, mataUang);
-        // Logika untuk memproses pembayaran (dapat ditambahkan di sini)
         Console.WriteLine("Pembayaran berhasil diproses!");
     }
 }
@@ -31,18 +36,23 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Pembayaran pembayaran = new Pembayaran(); // Membuat objek pembayaran
+        // Membuat objek pembayaran dari kelas Pembayaran
+        Pembayaran pembayaran = new Pembayaran();
 
         Console.Write("Masukkan jumlah pembayaran: ");
-        double jumlah = Convert.ToDouble(Console.ReadLine()); // Mengambil input jumlah dari pengguna
+        double jumlah = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Masukkan mata uang: ");
-        string mataUang = Console.ReadLine(); // Mengambil input mata uang dari pengguna
+        string mataUang = Console.ReadLine();
 
-        pembayaran.Jumlah = jumlah; // Mengatur nilai jumlah pada objek pembayaran menggunakan setter
-        pembayaran.MataUang = mataUang; // Mengatur nilai mataUang pada objek pembayaran menggunakan setter
+        // Mengatur nilai jumlah pada objek pembayaran menggunakan setter
+        pembayaran.Jumlah = jumlah;
 
-        pembayaran.ProsesPembayaran(); // Memanggil metode ProsesPembayaran pada objek pembayaran
+        // Mengatur nilai mataUang pada objek pembayaran menggunakan setter
+        pembayaran.MataUang = mataUang;
+
+        // Memanggil metode ProsesPembayaran pada objek pembayaran
+        pembayaran.ProsesPembayaran();
 
         Console.ReadLine();
     }

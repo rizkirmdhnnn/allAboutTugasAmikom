@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Inheritance\\Inheritance.csproj": {}
+    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\inheritance\\Inheritance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Inheritance\\Inheritance.csproj": {
+    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\inheritance\\Inheritance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Inheritance\\Inheritance.csproj",
+        "projectUniqueName": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\inheritance\\Inheritance.csproj",
         "projectName": "Inheritance",
-        "projectPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Inheritance\\Inheritance.csproj",
+        "projectPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\inheritance\\Inheritance.csproj",
         "packagesPath": "C:\\Users\\Rizkirmdhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Inheritance\\obj\\",
+        "outputPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\inheritance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rizkirmdhn\\AppData\\Roaming\\NuGet\\NuGet.Config"

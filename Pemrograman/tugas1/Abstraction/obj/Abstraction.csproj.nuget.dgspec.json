@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Abstraction\\Abstraction.csproj": {}
+    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\abstraction\\Abstraction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Abstraction\\Abstraction.csproj": {
+    "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\abstraction\\Abstraction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Abstraction\\Abstraction.csproj",
+        "projectUniqueName": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\abstraction\\Abstraction.csproj",
         "projectName": "Abstraction",
-        "projectPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Abstraction\\Abstraction.csproj",
+        "projectPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\abstraction\\Abstraction.csproj",
         "packagesPath": "C:\\Users\\Rizkirmdhn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\Abstraction\\obj\\",
+        "outputPath": "C:\\Users\\Rizkirmdhn\\Desktop\\allAboutTugasAmikom\\Pemrograman\\tugas1\\abstraction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rizkirmdhn\\AppData\\Roaming\\NuGet\\NuGet.Config"

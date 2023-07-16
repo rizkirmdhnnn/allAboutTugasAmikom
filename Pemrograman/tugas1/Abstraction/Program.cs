@@ -6,7 +6,8 @@ namespace Abstraction
     {
         static void Main(string[] args)
         {
-            IODevice device; // deklarasi variabel device dengan tipe data IODevice (superclass)
+            // deklarasi variabel device dengan tipe data IODevice (superclass)
+            IODevice device;
 
             Console.WriteLine("Pilih Perangkat Input/Output");
             Console.WriteLine("1. Keyboard");
@@ -14,24 +15,27 @@ namespace Abstraction
             Console.WriteLine("3. Monitor\n");
 
             Console.WriteLine("Nomor Perangkat [1..3]: ");
-            int deviceNumber = Convert.ToInt32(Console.ReadLine()); // konversi string ke int
+            int deviceNumber = Convert.ToInt32(Console.ReadLine());
 
             if (deviceNumber == 1)
             {
-                device = new Keyboard(); // inisialisasi variabel device dengan objek Keyboard (subclass)
+                // inisialisasi variabel device dengan objek Keyboard (subclass)
+                device = new Keyboard();
             }
             else if (deviceNumber == 2)
             {
-                device = new Mouse();   // inisialisasi variabel device dengan objek Mouse (subclass)
+                // inisialisasi variabel device dengan objek Mouse (subclass)
+                device = new Mouse();
             }
             else
             {
-                device = new Monitor(); // inisialisasi variabel device dengan objek Monitor (subclass)
+                // inisialisasi variabel device dengan objek Monitor (subclass)
+                device = new Monitor();
             }
-
-            device.Show(); // memanggil method Show() dari objek device
-            device.ProcessInput(); // memanggil method ProcessInput() dari objek device
-
+            // memanggil method Show() dari objek device
+            device.Show();
+            // memanggil method ProcessInput() dari objek device 
+            device.ProcessInput();
             Console.ReadKey();
         }
     }
