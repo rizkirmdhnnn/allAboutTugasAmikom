@@ -6,7 +6,7 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Pembayaran pembayaran;
+            Pembayaran pembayaran; // deklarasi variabel pembayaran dengan tipe data Pembayaran (superclass)
 
             Console.WriteLine("Pilih Metode Pembayaran");
             Console.WriteLine("1. Kartu Kredit");
@@ -17,54 +17,59 @@ namespace Polymorphism
             int nomorMetode = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Masukkan Jumlah Pembayaran: ");
-            double jumlahPembayaran = Convert.ToDouble(Console.ReadLine());
+            double jumlahPembayaran = Convert.ToDouble(Console.ReadLine()); // konversi string ke double
 
             if (nomorMetode == 1)
             {
-                pembayaran = new PembayaranKartuKredit();
+                pembayaran = new PembayaranKartuKredit(); // inisialisasi variabel pembayaran dengan objek PembayaranKartuKredit (subclass)
             }
             else if (nomorMetode == 2)
             {
-                pembayaran = new PembayaranTransferBank();
+                pembayaran = new PembayaranTransferBank(); // inisialisasi variabel pembayaran dengan objek PembayaranTransferBank (subclass)
             }
             else
             {
-                pembayaran = new PembayaranEWallet();
+                pembayaran = new PembayaranEWallet(); // inisialisasi variabel pembayaran dengan objek PembayaranEWallet (subclass)
             }
 
-            pembayaran.Show();
-            pembayaran.ProcessPayment(jumlahPembayaran);
+            pembayaran.Show(); // memanggil method Show() dari objek pembayaran
+            pembayaran.ProcessPayment(jumlahPembayaran); // memanggil method ProcessPayment() dari objek pembayaran
 
             Console.ReadKey();
         }
     }
 
+    //public class Pembayaran (superclass)
     public class Pembayaran
     {
+        //public virtual void Show() (method virtual) 
+        //virtual adalah method yang dapat di override oleh subclass
         public virtual void Show()
         {
             Console.WriteLine("Metode Pembayaran Tersedia");
         }
 
+        //public virtual void ProcessPayment(double jumlah) (method virtual)
         public virtual void ProcessPayment(double jumlah)
         {
             Console.WriteLine("Silahkan Pilih Metode Pembayaran");
         }
     }
 
+    //public class PembayaranKartuKredit : Pembayaran (subclass)
     public class PembayaranKartuKredit : Pembayaran
     {
+        //public override void Show() (method override)
+        //overide adalah method yang memiliki nama, parameter, dan tipe data yang sama dengan method yang ada di superclass
         public override void Show()
         {
             Console.WriteLine("Metode Pembayaran dengan Kartu Kredit");
         }
-
         public override void ProcessPayment(double jumlah)
         {
             Console.WriteLine("Memproses pembayaran sejumlah {0} dengan kartu kredit...", jumlah);
         }
     }
-
     public class PembayaranTransferBank : Pembayaran
     {
         public override void Show()

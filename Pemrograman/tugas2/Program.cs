@@ -2,48 +2,56 @@
 
 public abstract class Pemesanan
 {
-    private string nama;
-    private string nik;
-    private string nomorTelepon;
+    private string nama; // field nama 
+    private string nik; // field nik
+    private string nomorTelepon; // field nomorTelepon
 
+    // property nama
     public string Nama
     {
         get { return nama; }
         set { nama = value; }
     }
 
+    // property nik
     public string NIK
     {
         get { return nik; }
         set { nik = value; }
     }
 
+    // property nomorTelepon
     public string NomorTelepon
     {
         get { return nomorTelepon; }
         set { nomorTelepon = value; }
     }
 
+    // method abstrak ProsesPemesanan yang akan diimplementasikan di kelas turunan
     public abstract void ProsesPemesanan();
 }
 
+// kelas PemesananTiket yang merupakan turunan dari kelas Pemesanan
 public class PemesananTiket : Pemesanan
 {
-    private string nomorKartuVaksin;
-    private string alamatRumah;
+    private string nomorKartuVaksin; // field nomorKartuVaksin
+    private string alamatRumah; // field alamatRumah
 
+    // property nomorKartuVaksin
     public string NomorKartuVaksin
     {
         get { return nomorKartuVaksin; }
         set { nomorKartuVaksin = value; }
     }
 
+    // property alamatRumah
     public string AlamatRumah
     {
         get { return alamatRumah; }
         set { alamatRumah = value; }
     }
 
+    // implementasi method ProsesPemesanan yang diwarisi dari kelas Pemesanan
     public override void ProsesPemesanan()
     {
         Console.WriteLine();
@@ -57,8 +65,10 @@ public class PemesananTiket : Pemesanan
     }
 }
 
+
 public class Program
 {
+    // list daftarPemesanan untuk menyimpan objek Pemesanan
     static List<Pemesanan> daftarPemesanan = new List<Pemesanan>();
 
     public static void Main(string[] args)
@@ -117,6 +127,7 @@ public class Program
         Console.Write("Masukkan Alamat Rumah: ");
         string alamatRumah = Console.ReadLine();
 
+        // membuat objek PemesananTiket dan menyimpannya di variabel pemesanan
         Pemesanan pemesanan = new PemesananTiket
         {
             Nama = nama,
@@ -139,6 +150,7 @@ public class Program
         Console.WriteLine("===== Daftar Tiket Terpesan =====");
         Console.WriteLine();
 
+        // mengecek apakah daftarPemesanan memiliki isi atau tidak 
         if (daftarPemesanan.Count > 0)
         {
             foreach (Pemesanan pemesanan in daftarPemesanan)
@@ -146,6 +158,8 @@ public class Program
                 Console.WriteLine("Nama: {0}", pemesanan.Nama);
                 Console.WriteLine("NIK: {0}", pemesanan.NIK);
                 Console.WriteLine("Nomor Telepon: {0}", pemesanan.NomorTelepon);
+
+                // mengecek apakah pemesanan merupakan objek PemesananTiket
                 if (pemesanan is PemesananTiket pemesananTiket)
                 {
                     Console.WriteLine("Nomor Kartu Vaksin: {0}", pemesananTiket.NomorKartuVaksin);

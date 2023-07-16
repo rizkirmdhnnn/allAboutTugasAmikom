@@ -6,7 +6,7 @@ namespace Abstraction
     {
         static void Main(string[] args)
         {
-            IODevice device;
+            IODevice device; // deklarasi variabel device dengan tipe data IODevice (superclass)
 
             Console.WriteLine("Pilih Perangkat Input/Output");
             Console.WriteLine("1. Keyboard");
@@ -14,36 +14,42 @@ namespace Abstraction
             Console.WriteLine("3. Monitor\n");
 
             Console.WriteLine("Nomor Perangkat [1..3]: ");
-            int deviceNumber = Convert.ToInt32(Console.ReadLine());
+            int deviceNumber = Convert.ToInt32(Console.ReadLine()); // konversi string ke int
 
             if (deviceNumber == 1)
             {
-                device = new Keyboard();
+                device = new Keyboard(); // inisialisasi variabel device dengan objek Keyboard (subclass)
             }
             else if (deviceNumber == 2)
             {
-                device = new Mouse();
+                device = new Mouse();   // inisialisasi variabel device dengan objek Mouse (subclass)
             }
             else
             {
-                device = new Monitor();
+                device = new Monitor(); // inisialisasi variabel device dengan objek Monitor (subclass)
             }
 
-            device.Show();
-            device.ProcessInput();
+            device.Show(); // memanggil method Show() dari objek device
+            device.ProcessInput(); // memanggil method ProcessInput() dari objek device
 
             Console.ReadKey();
         }
     }
 
+    //public class IODevice (superclass)
+    //abstract adalah class yang tidak dapat di instansiasi (tidak dapat dibuat objeknya)
+    //class ini hanya dapat diwarisi oleh subclass
     public abstract class IODevice
     {
         public abstract void Show();
         public abstract void ProcessInput();
     }
 
+    //public class Keyboard : IODevice (subclass)
     public class Keyboard : IODevice
     {
+        //public override void Show() (method override)
+        //override adalah method yang menggantikan method virtual dari superclass
         public override void Show()
         {
             Console.WriteLine("Keyboard connected");
@@ -55,6 +61,7 @@ namespace Abstraction
         }
     }
 
+    //public class Mouse : IODevice (subclass)
     public class Mouse : IODevice
     {
         public override void Show()
@@ -68,6 +75,7 @@ namespace Abstraction
         }
     }
 
+    //public class Monitor : IODevice (subclass)
     public class Monitor : IODevice
     {
         public override void Show()
