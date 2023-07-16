@@ -1,0 +1,15 @@
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\bin\Debug\net7.0\Encapsulation.exe
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\bin\Debug\net7.0\Encapsulation.deps.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\bin\Debug\net7.0\Encapsulation.runtimeconfig.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\bin\Debug\net7.0\Encapsulation.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\bin\Debug\net7.0\Encapsulation.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.csproj.AssemblyReference.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.AssemblyInfoInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.AssemblyInfo.cs
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\refint\Encapsulation.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\Encapsulation.genruntimeconfig.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Encapsulation\obj\Debug\net7.0\ref\Encapsulation.dll

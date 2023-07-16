@@ -1,0 +1,15 @@
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\bin\Debug\net7.0\Inheritance.exe
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\bin\Debug\net7.0\Inheritance.deps.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\bin\Debug\net7.0\Inheritance.runtimeconfig.json
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\bin\Debug\net7.0\Inheritance.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\bin\Debug\net7.0\Inheritance.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.csproj.AssemblyReference.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.AssemblyInfoInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.AssemblyInfo.cs
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\refint\Inheritance.dll
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.pdb
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\Inheritance.genruntimeconfig.cache
+C:\Users\Rizkirmdhn\Desktop\allAboutTugasAmikom\Pemrograman\tugas1\Inheritance\obj\Debug\net7.0\ref\Inheritance.dll
